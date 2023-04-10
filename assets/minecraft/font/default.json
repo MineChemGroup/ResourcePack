@@ -962,6 +962,79 @@
             "chars": [
                 "\uE225"
             ]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/container/Decomposer.png",
+            "ascent": 12,
+            "height": 139,
+            "chars": [
+                "\u25F0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/container/Synthesizer.png",
+            "ascent": 12,
+            "height": 139,
+            "chars": [
+                "\u25F1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/container/Microscope.png",
+            "ascent": 12,
+            "height": 139,
+            "chars": [
+                "\u25F2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/decomposition.png",
+            "ascent": 0,
+            "height": 13,
+            "chars": [
+                "\u25F3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/synthesis.png",
+            "ascent": 0,
+            "height": 13,
+            "chars": [
+                "\u25F4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/help.png",
+            "ascent": 0,
+            "height": 13,
+            "chars": [
+                "\u25F5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/jammed.png",
+            "ascent": 0,
+            "height": 13,
+            "chars": [
+                "\u25F6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minechem:gui/noRecipe.png",
+            "ascent": 0,
+            "height": 13,
+            "chars": [
+                "\u25F7"
+            ]
         }
     ]
 }
