@@ -1,0 +1,206 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "microscope4": "minechem:block/microscope4",
+        "microscope5": "minechem:block/microscope5",
+        "microscope6": "minechem:block/microscope6",
+        "microscope1": "minechem:block/microscope1",
+        "microscope2": "minechem:block/microscope2",
+        "microscope3": "minechem:block/microscope3"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, -14.65, 0 ],
+            "scale": [ 2.29, 2.29, 2.29 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 1, 16 ], 
+            "faces": {
+                "north": { "texture": "#microscope1", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#microscope1", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#microscope1", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#microscope1", "uv": [ 0, 0, 16, 1 ] },
+                "down": { "texture": "#microscope1", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 1, 0 ], 
+            "to": [ 16, 2, 16 ], 
+            "faces": {
+                "north": { "texture": "#microscope2", "uv": [ 0, 15, 16, 16 ] },
+                "east": { "texture": "#microscope2", "uv": [ 0, 15, 16, 16 ] },
+                "south": { "texture": "#microscope2", "uv": [ 0, 15, 16, 16 ] },
+                "west": { "texture": "#microscope2", "uv": [ 0, 15, 16, 16 ] },
+                "up": { "texture": "#microscope2", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6, 2, 0 ], 
+            "to": [ 10, 8, 4 ], 
+            "faces": {
+                "north": { "texture": "#microscope4", "uv": [ 8, 6, 12, 12 ] },
+                "east": { "texture": "#microscope4", "uv": [ 1, 1, 5, 7 ] },
+                "south": { "texture": "#microscope4", "uv": [ 11, 6, 15, 12 ] },
+                "west": { "texture": "#microscope4", "uv": [ 8, 6, 12, 12 ] },
+                "up": { "texture": "#microscope4", "uv": [ 1, 6, 5, 10 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4, 5, 3 ], 
+            "to": [ 12, 6, 11 ], 
+            "faces": {
+                "north": { "texture": "#microscope5", "uv": [ 8, 7, 16, 8 ] },
+                "east": { "texture": "#microscope5", "uv": [ 8, 7, 16, 8 ] },
+                "south": { "texture": "#microscope5", "uv": [ 8, 7, 16, 8 ] },
+                "west": { "texture": "#microscope5", "uv": [ 8, 7, 16, 8 ] },
+                "up": { "texture": "#microscope5", "uv": [ 0, 0, 8, 8 ] },
+                "down": { "texture": "#microscope5", "uv": [ 8, 0, 16, 8 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 10, 5.5, 0.5 ], 
+            "to": [ 11, 6.5, 1.5 ], 
+            "faces": {
+                "north": { "texture": "#microscope3", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#microscope3", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#microscope3", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#microscope3", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11, 5, 0 ], 
+            "to": [ 12, 7, 2 ], 
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 11, 8, 12, 10 ] },
+                "east": { "texture": "#microscope6", "uv": [ 13, 12, 15, 14 ] },
+                "south": { "texture": "#microscope6", "uv": [ 11, 8, 12, 10 ] },
+                "west": { "texture": "#microscope6", "uv": [ 13, 12, 15, 14 ] },
+                "up": { "texture": "#microscope6", "uv": [ 11, 8, 12, 10 ] },
+                "down": { "texture": "#microscope6", "uv": [ 11, 8, 12, 10 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 8, 1 ], 
+            "to": [ 9, 14, 3 ], 
+            "rotation": { "origin": [ 8, 8.5, 0.3 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 14, 0, 16, 6 ] },
+                "east": { "texture": "#microscope6", "uv": [ 11, 0, 13, 6 ] },
+                "south": { "texture": "#microscope6", "uv": [ 12, 0, 14, 6 ] },
+                "west": { "texture": "#microscope6", "uv": [ 11, 0, 13, 6 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6, 10, 4 ], 
+            "to": [ 10, 12, 9 ], 
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 0, 0, 4, 2 ] },
+                "east": { "texture": "#microscope6", "uv": [ 5, 12, 10, 14 ] },
+                "south": { "texture": "#microscope6", "uv": [ 0, 5, 4, 7 ] },
+                "west": { "texture": "#microscope6", "uv": [ 5, 12, 10, 14 ] },
+                "up": { "texture": "#microscope6", "uv": [ 0, 5, 4, 10 ] },
+                "down": { "texture": "#microscope6", "uv": [ 0, 5, 4, 10 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 12, 4 ], 
+            "to": [ 8.5, 16, 5 ], 
+            "rotation": { "origin": [ 8, 12, 5 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 11, 12, 12, 16 ], "rotation": 180 },
+                "east": { "texture": "#microscope6", "uv": [ 11, 12, 12, 16 ], "rotation": 180 },
+                "south": { "texture": "#microscope6", "uv": [ 11, 12, 12, 16 ], "rotation": 180 },
+                "west": { "texture": "#microscope6", "uv": [ 11, 12, 12, 16 ], "rotation": 180 },
+                "up": { "texture": "#microscope6", "uv": [ 11, 15, 12, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 7.5, 7.5 ], 
+            "to": [ 8.5, 10.5, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "east": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "south": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "west": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "down": { "texture": "#microscope6", "uv": [ 9, 12, 10, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6, 8, 6.5 ], 
+            "to": [ 7, 11, 7.5 ], 
+            "rotation": { "origin": [ 7, 9, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "east": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "south": { "texture": "#microscope6", "uv": [ 4, 11, 5, 14 ] },
+                "west": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "down": { "texture": "#microscope6", "uv": [ 0, 1, 1, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 2, 7 ], 
+            "to": [ 9, 4, 9 ], 
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 2, 11, 4, 13 ] },
+                "east": { "texture": "#microscope6", "uv": [ 2, 11, 4, 13 ] },
+                "south": { "texture": "#microscope6", "uv": [ 2, 11, 4, 13 ] },
+                "west": { "texture": "#microscope6", "uv": [ 2, 11, 4, 13 ] },
+                "up": { "texture": "#microscope5", "uv": [ 3, 3, 5, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8.5, 7.5, 5.6 ], 
+            "to": [ 9.5, 10.5, 6.6 ], 
+            "rotation": { "origin": [ 8, 9, 7 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "east": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "south": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "west": { "texture": "#microscope6", "uv": [ 5, 11, 6, 14 ] },
+                "down": { "texture": "#microscope6", "uv": [ 9, 12, 10, 13 ] }
+            }
+        }
+    ]
+}

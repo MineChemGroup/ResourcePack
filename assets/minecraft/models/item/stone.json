@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/stone",
+	"textures": {"all": "minecraft:block/stone"},
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "minechem:block/microscope"},
+		{"predicate": {"custom_model_data": 2},"model": "minechem:block/chemical_decomposer1"},
+		{"predicate": {"custom_model_data": 3},"model": "minechem:block/chemical_decomposer2"},
+		{"predicate": {"custom_model_data": 4},"model": "minechem:block/chemical_synthesizer1"},
+		{"predicate": {"custom_model_data": 5},"model": "minechem:block/chemical_synthesizer2"}
+    ]
+}
